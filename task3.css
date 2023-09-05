@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    width: 800px;
+}
+th{
+    text-align: left;
+    padding: 15px;
+    color: aliceblue;
+    background-color: #17b867;
+}
+tr:nth-child(odd) {
+    background-color: #ffffffee; /* Light gray for odd rows */
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd; /* White for even rows */
+}
+td{
+    padding: 15px;
+}
+#company{
+    width: 380px;
+}
+#country{
+    width: 120px;
+}
